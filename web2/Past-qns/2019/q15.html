@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate</title>
+</head>
+<body>
+    <form action="q15.php" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" >
+        <br>
+        <br>
+        
+        <label for="pass">Password</label>
+        <input type="text" name="pass" >
+        <br>
+        <br>
+        <label for="hob">Hobbies: </label>
+            <input type="checkbox" name ="hob[]" value="sport">sport
+            <input type="checkbox" name ="hob[]" value="code">coding
+            <input type="checkbox" name ="hob[]" value="travel">Travelling
+        <br>
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea name="comment" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
